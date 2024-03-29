@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./play.js" />
+  </head>
+
+  <body>
+    <script src="./play.js
+    
+    "></script>
+    <div class="container">
+      <nav id="nav">
+        <div class="maindiv">
+          <div id="Logo">
+            <div
+              style="
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                transform: translate(1rem, 1rem);
+                color: white;
+                gap: 0.1rem;
+              "
+            >
+              <img
+                src="./assets/spotify.png"
+                alt=""
+                height="30px"
+                width="30px"
+                style=""
+              />
+              <div>Spotify</div>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                transform: translate(1rem, 1.3rem);
+                color: white;
+                gap: 1rem;
+              "
+            >
+              <img
+                src="./assets/icons8-home-512.png"
+                alt=""
+                height="30px"
+                width="30px"
+                style=""
+              />
+              <div id="text">Home</div>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                transform: translate(1rem, 1.3rem);
+                color: white;
+                gap: 1rem;
+              "
+            >
+              <img
+                src="./assets/icons8-search-500.png"
+                alt=""
+                height="30px"
+                width="30px"
+                style=""
+              />
+              <div id="text">Search</div>
+            </div>
+          </div>
+          <div class="leftcontainer">
+            <div class="box"></div>
+            <div class="box2" style="overflow-y: scroll">
+              <div id="scrollbar">
+                <div
+                  style="
+                    text-align: start;
+                    padding: 10px;
+                    color: White;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                      'Trebuchet MS', sans-serif;
+                  "
+                >
+                  <p style="font-size: medium; font-weight: 900">
+                    Create your first playlist
+                  </p>
+                  <p style="font-weight: 800; font-size: small">
+                    it's easy,we'll help you
+                  </p>
+                </div>
+                <div>
+                  <button
+                    id="box1btn"
+                    style="
+                      border: 0;
+                      background-color: white;
+                      color: black;
+                      width: 40%;
+                      height: 30px;
+                      border-radius: 17px;
+                      position: absolute;
+                      left: 10%;
+                      bottom: 30%;
+                      font-weight: 700;
+                      transition: all 250ms ease-In-Out;
+                    "
+                  >
+                    Create playlist
+                  </button>
+                </div>
+              </div>
+              <div id="scrollbar">
+                <div
+                  style="
+                    text-align: start;
+                    padding: 10px;
+                    color: White;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                      'Trebuchet MS', sans-serif;
+                  "
+                >
+                  <p style="font-weight: 900">
+                    Let's find some podcast to follow
+                  </p>
+                  <p>We'll keep you updated on new episodes</p>
+                </div>
+              </div>
+              <div>
+                <button
+                  id="box1btn"
+                  style="
+                    border: 0;
+                    background-color: white;
+                    color: black;
+                    width: 40%;
+                    height: 30px;
+                    border-radius: 17px;
+                    position: absolute;
+                    left: 10%;
+                    bottom: -60%;
+                    font-weight: 700;
+                    transition: all 250ms ease-In-Out;
+                  "
+                >
+                  Browse podcast
+                </button>
+              </div>
+            </div>
+            <div class="box3">
+              <div
+                style="
+                  height: 100%;
+                  width: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: start;
+                  align-items: start;
+                  gap: 1rem;
+                  text-align: center;
+                  transform: translate(3rem, 2rem);
+                "
+              >
+                <div
+                  id="leftfooter"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    gap: 2rem;
+                    color: gray;
+                    font-size: x-small;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                      'Trebuchet MS', sans-serif;
+                  "
+                >
+                  <span id="leftfooter">Legal</span
+                  ><span id="leftfooter">Privacy center</span
+                  ><span id="leftfooter">Privacy policy</span>
+                </div>
+                <div
+                  id="leftfooter"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    gap: 2rem;
+                    color: gray;
+                    font-size: x-small;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                      'Trebuchet MS', sans-serif;
+                  "
+                >
+                  <span id="leftfooter">Cookies</span
+                  ><span id="leftfooter">About Ads</span
+                  ><span id="leftfooter">Accessibility</span>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 2rem;
+                    color: gray;
+                    font-size: x-small;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                      'Trebuchet MS', sans-serif;
+                  "
+                >
+                  <span id="leftfooter">Cookies</span>
+                </div>
+              </div>
+              <div>
+                <button
+                  style="
+                    height: 30px;
+                    width: 30%;
+                    border-radius: 17px;
+                    background-color: black;
+                    color: white;
+                    font-weight: 800;
+                    transform: translate(2rem, -7rem);
+                    border: 1px solid white;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 0.3rem;
+                  "
+                >
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 100 100"
+                      width="17"
+                      height="17"
+                    >
+                      <!-- White Globe -->
+                      <circle cx="50" cy="50" r="50" fill="#ffffff" />
+
+                      <!-- Vertical Lines -->
+                      <line
+                        x1="50"
+                        y1="0"
+                        x2="50"
+                        y2="100"
+                        stroke="#000000"
+                        stroke-width="2"
+                      />
+                      <line
+                        x1="25"
+                        y1="0"
+                        x2="25"
+                        y2="100"
+                        stroke="#000000"
+                        stroke-width="2"
+                      />
+                      <line
+                        x1="75"
+                        y1="0"
+                        x2="75"
+                        y2="100"
+                        stroke="#000000"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </span>
+                  <p>English</p>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div id="ScrollLog"></div>
+        </div>
+        <div
+          style="display: flex; flex-direction: column; gap: 5px"
+          id="content"
+        >
+          <div class="secondarydiv">
+            <div style="position: relative;right:60% ;cursor:pointer" id="navarrow"><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="white"
+              width="40"
+              height="40"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+            </div>
+            <div id="auth">
+              <a href="./login.html"><center>Login</center></a>
+            </div>
+            <div id="auth-2">Logout</div>
+          </div>
+          <div       style="
+          background-color: rgba(28, 27, 27, 0.886);
+          height: 100%;
+          width: 98.5%;
+          border-bottom-left-radius: 9px;
+          border-bottom-right-radius: 9px;
+        " class="playlist2">
+        <div class="playlist-heading"><img src="./assets/boa.jpg" style="box-shadow: 2px 2px 11px 6px black;" height="250px" width="250px" alt="">
+        <div style="transform: translateY(50px);">
+          <h6 style="color: white;font-size:21px;margin:5px">playlist</h6>
+          <h1 style="color: white;font-size:48px;margin:0px">Custom</h1>
+          <h6 style="color:white">All types of song</h6>
+        </div></div>
+        <div class="playlist-btn">
+          <div style="height: 100%;width:45px;cursor: pointer;"><img src="./assets/play.png" style="height:100%;width:100%" class="playlistpng"  alt=""></div>
+          <div style="height: 100%;width:50px;cursor: pointer;"><img src="./assets/pngwing.com (1).png" style="height:100%;width:100%" class="playlistpng"   alt=""></div>
+          <div style="color:white;cursor: pointer;" class="playlistpng" >. . .</div>
+        
+        </div>
+        <div class="songcontainer">
+          <div><hr></div>
+          <div style="display: flex;width:100%;justify-content:space-around;align-items:center;color:white"><div></div><div style="text-align: center;padding-left:53px">name</div><div>duration</div><div></div></div>
+          <div><hr></div>
+          <div>
+            <div style="display: flex;width:100%;justify-content:space-around;align-items:center;color:white"><div><img src="./assets/boa.jpg" alt="" height="40px" width="40px"></div><div>Boa Duvet</div><div class="duration"></div><div><img src="./assets/play.png" class="playlist2-btn" id="playlist-click" height="20px" width="20px" style="cursor: pointer;" alt=""></div></div>
+          </div>
+          <div><hr></div>
+          <div>
+            <div style="display: flex;width:100%;justify-content:space-around;align-items:center;color:white"><div><img src="./assets/katipatang.jpg" alt="" height="40px" width="40px"></div><div style="text-align: center;">katipatang</div><div class="duration"></div><div><img src="./assets/play.png"  id="playlist-click2"  class="playlist2-btn" height="20px" width="20px" style="cursor: pointer;" alt=""></div></div>
+          </div>
+
+
+                  </div>
+
+          </div>
+          <div
+            style="
+              background-color: rgba(28, 27, 27, 0.886);
+              height: 100%;
+              width: 98.5%;
+              border-bottom-left-radius: 9px;
+              border-bottom-right-radius: 9px;
+            "
+            class="playlist"
+          >
+            <div style="color: white; transform: translate(7%, 10%)">
+              <h1>Spotify Playlists</h1>
+              <div class="song">
+                <div
+                  class="box1"
+                  style="
+                    height: 100%;
+                    width: 30%;
+                    border-radius: 17px;
+                    display: flex;
+                  "
+                >
+                  <img
+                    src="./assets/boa.jpg"
+                    alt=""
+                    style="height: 80%; width: 90%; padding: 15px"
+                  />
+                  <img src="./assets/play.png" id="play" class="playimg" alt="" />
+                  <div
+                    style="padding-left: 2px; transform: translate(2rem, -1rem)"
+                  >
+                    <p>Boa Duvet</p>
+                    <p>chill beats,lofi</p>
+                  </div>
+                </div>
+                <div
+                  class="box1"
+                  style="
+                    height: 100%;
+                    width: 30%;
+                    border-radius: 17px;
+                    display: flex;
+                  "
+                >
+                  <img
+                    src="./assets/katipatang.jpg"
+                    alt=""
+                    style="height: 80%; width: 90%; padding: 15px"
+                  />
+                  <img src="./assets/play.png" id="play2" class="playimg" alt="" />
+                  <div
+                    style="padding-left: 2px; transform: translate(2rem, -1rem)"
+                  >
+                    <p>Kati Patang</p>
+                    <p>old ,90's,relaxing</p>
+                  </div>
+                </div>
+                <div
+                  class="box1"
+                  style="
+                    height: 100%;
+                    width: 30%;
+                    border-radius: 17px;
+                    display: flex;
+                  "
+                >
+                  <img
+                    src="./assets/hanuman.jpg"
+                    alt=""
+                    style="height: 80%; width: 90%; padding: 15px"
+                  />
+                  
+                  <img src="./assets/play.png" id="play3"  alt="" />
+                  <div
+                    style="padding-left: 2px; transform: translate(2rem, -1rem)"
+                  >
+                    <p>Shree Hanuman Chalisa</p>
+                    <p>bhajan, bhakti song</p>
+                  </div>
+                </div>
+
+                <div
+                  class="box1"
+                  style="
+                    height: 100%;
+                    width: 30%;
+                    border-radius: 17px;
+                    display: flex;
+                  "
+                >
+                  <img
+                    src="./assets/tummile.jpg"
+                    alt=""
+                    style="height: 80%; width: 90%; padding: 15px"
+                  />
+                  <img src="./assets/play.png" id="play4" class="playimg" alt="" />
+                  <div
+                    style="padding-left: 2px; transform: translate(2rem, -1rem)"
+                  >
+                    <p>Kati Patang</p>
+                    <p>old ,90's,relaxing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div><footer id="footer">
+              <div id="progress-bar" class="progress-bar">
+                <div
+                  id="play-pause-button"
+                  class="play-pause-button"
+                ></div>
+              </div>
+            </footer></div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+    
+  </body>
+</html>
